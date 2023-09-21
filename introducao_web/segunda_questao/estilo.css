@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#adicionar-tarefa {
+    margin-bottom: 20px;
+}
+
+#nova-tarefa {
+    padding: 5px;
+    width: 60%;
+}
+
+#adicionar {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#lista-tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.tarefa-concluida {
+    background-color: #c1f3c1;
+    text-decoration: line-through;
+}
